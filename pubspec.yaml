@@ -1,0 +1,41 @@
+name: flutter_application_1
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.0.5
+  http: ^0.13.3
+  cupertino_icons: ^1.0.8
+  flutter_native_splash: ^2.3.1 # Add flutter_native_splash package
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/espresso.jpg
+    - assets/images/americano.jpg
+    - assets/images/cappuccino.jpg
+    - assets/images/latte.jpg
+    - assets/images/sakapilogo.png
+    - assets/images/nasigoreng.jpeg
+    - assets/images/kuecubir.jpeg
+    - assets/images/banner.jpg
+    - assets/images/macchiato.jpeg
+    - assets/images/icedcoffee.jpeg
+
+flutter_native_splash:
+  color: "#6F4C3E" # Dark brown color
+  image: assets/images/sakapilogo.png # Use the logo image
+  android: true
+  ios: true
